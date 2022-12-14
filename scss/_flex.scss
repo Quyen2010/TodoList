@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+   flex-wrap: wrap;
+}
+.block{
+    display: block;
+}
+.a-center{
+    align-items: center;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-end{
+    justify-content: flex-end;
+}
+.j-center{
+    justify-content: center;
+}
+.j-column{// dua cac phan tu len tren 1 hang 
+    flex-direction: column;// dua cac phan tu len hang doc 
+    // flex-direction:row; dua cac phan tu len cung 1 hang 
+}

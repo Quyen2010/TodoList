@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="public/css/reset.css">
+    <link rel="stylesheet" href="public/css/Todolist.css">
+    <title>TodoList</title>
+</head>
+<body>
+    <div class="todo">
+        <form action="#">
+            <h3 class="flex j-center">DAILY TODO</h3>
+            <div class="search flex">
+                <input class="todo-input" placeholder="Enter task..." type="text">
+                <button class="btn-add">Add</button>
+            </div>
+        </form>
+        <ul class="todo-list">
+            <li class=" flex j-between todo-items">
+                <span>Todo 1</span>
+                <div class="button">
+                    <button class="btn-delete"><i class="fa-solid fa-trash"></i></button>
+                    <button class="btn-edit"><i class="fa-solid fa-pen-to-square"></i></button>    
+                </div>
+            </li>
+        </ul>
+        <div class="todo-info flex j-between ">
+            <p class="earn">you're have 5 todos</p>
+            <button class="clear">Clear Todo</button>
+        </div>
+    </div>
+</body>
+<script src="js/Todolist.js"></script>
+</html>

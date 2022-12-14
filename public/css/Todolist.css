@@ -1,0 +1,95 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: block;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-column {
+  flex-direction: column;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 18px 12px;
+  width: 600px;
+}
+.todo form h3 {
+  font-size: 30px;
+  margin: 18px;
+}
+.todo form .search input {
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 12px 8px;
+  flex-grow: 1;
+}
+.todo form .search .btn-add {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 18px;
+  background-color: #333;
+  padding: 0px 22px;
+  color: white;
+  cursor: pointer;
+}
+.todo ul {
+  margin-top: 12px;
+}
+.todo ul li {
+  font-size: 18px;
+  padding: 12px 8px;
+  box-shadow: 0px 2px 5px -2px;
+}
+.todo ul li button.btn-delete {
+  cursor: pointer;
+}
+.todo ul li button.btn-delete i {
+  color: red;
+}
+.todo ul li button.btn-edit {
+  cursor: pointer;
+}
+.todo ul li button.btn-edit i {
+  color: goldenrod;
+}
+.todo .todo-info {
+  margin-top: 20px;
+}
+.todo .todo-info p {
+  font-weight: bold;
+}
+.todo .todo-info button {
+  padding: 12px;
+  color: white;
+  background-color: goldenrod;
+  border-radius: 4px;
+  cursor: pointer;
+}/*# sourceMappingURL=Todolist.css.map */
